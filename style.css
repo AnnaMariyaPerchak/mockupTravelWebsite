@@ -1,0 +1,693 @@
+@font-face {
+  font-family: "NunitoRegular";
+  src: url("./fonts/Nunito/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: "NunitoSansRegular";
+  src: url("./fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "NunitoSansExtraLight";
+  src: url("./fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf");
+}
+
+header {
+  margin-top: 75px;
+  margin-bottom: 98px;
+  margin-left: 158px;
+  display: flex;
+}
+header img {
+  width: 179px;
+  height: 50px;
+}
+header .nav {
+  margin-left: 715px;
+}
+header .nav .home {
+  margin-right: 66px;
+}
+header .nav .video {
+  margin-right: 69px;
+}
+header .nav .destination {
+  margin-right: 71px;
+}
+header .nav .booking {
+  margin-right: 59px;
+}
+header .nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "NunitoRegular";
+  font-size: 20px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  color: #bab8b8;
+}
+header .nav a:active {
+  font-weight: 600;
+  color: #4497f3;
+}
+header .nav .buttonSignIn {
+  width: 151px;
+  height: 57px;
+  border: 3px solid #3984f3;
+  background-color: white;
+  font-family: "NunitoSansRegular";
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #3984f3;
+}
+
+.signUpNow {
+  margin-top: 98px;
+  margin-left: 160px;
+  display: flex;
+}
+.signUpNow img {
+  width: 1060px;
+  height: 998px;
+}
+.signUpNow .signUpNowInfo {
+  width: 50%;
+  height: 998px;
+  position: relative;
+}
+.signUpNow .signUpNowInfo div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-right: 186px;
+}
+.signUpNow .signUpNowInfo h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 75px;
+  line-height: 80px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #091e40;
+}
+.signUpNow .signUpNowInfo p {
+  font-family: "NunitoSansRegular";
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #81858e;
+  margin-top: 76px;
+  margin-bottom: 96px;
+}
+.signUpNow .signUpNowInfo button {
+  width: 202px;
+  height: 57px;
+  background-color: #3984f3;
+  border: 3px solid #3984f3;
+  font-family: "NunitoSansRegular";
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.explore {
+  display: block;
+  margin-top: 163px;
+}
+.explore .exploreMaldives {
+  margin-top: 73px;
+  margin-right: 38px;
+}
+.explore .exploreMaldives .MaldivesName {
+  position: absolute;
+  top: 1905px;
+  left: 10px;
+  font-family: "NunitoSansRegular";
+  font-size: 23px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.explore .exploreNepal {
+  margin-right: 38px;
+}
+.explore .exploreNepal .dataRating {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* display: flex; */
+}
+.explore .exploreNepal .rating .fas,
+.far {
+  color: #3984f3;
+  width: 22px;
+  height: 21px;
+}
+.explore .exploreNepal .days {
+  font-family: "NunitoSansExtraLight";
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #a0a0a0;
+  right: 0;
+}
+.explore .exploreNepal .NepalPrice {
+  position: absolute;
+  top: 1415px;
+  left: 271px;
+
+  width: 110px;
+  height: 43px;
+  background-color: #3984f3;
+
+  font-family: "NunitoSansExtraLight";
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+
+  padding: 10px 30px;
+}
+.explore .exploreNepal .NepalName {
+  position: absolute;
+  top: 1833px;
+  left: 288px;
+  font-family: "NunitoSansExtraLight";
+  font-size: 23px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.explore .exploreIndonesia {
+  margin-top: 73px;
+  margin-right: 141px;
+}
+.explore .exploreInfo {
+  margin-top: 89px;
+  position: relative;
+  width: 40%;
+  /* margin-right: 160px; */
+}
+.explore .exploreIndonesia .IndonesiaPrice {
+  position: absolute;
+  top: 1488px;
+
+  width: 110px;
+  height: 43px;
+  background-color: #3984f3;
+
+  font-family: "NunitoSansExtraLight";
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+
+  padding: 10px 30px;
+}
+.explore .exploreIndonesia .IndonesiaName {
+  position: absolute;
+  top: 1906px;
+  left: 698px;
+  font-family: "NunitoSansExtraLight";
+  font-size: 23px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.explore .exploreInfo div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-right: 160px;
+  /* margin-right: 160px; */
+}
+.explore .exploreInfo h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #091e40;
+  margin-bottom: 40px;
+}
+.explore .exploreInfo p {
+  font-family: "NunitoSansRegular";
+  font-size: 22px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #81858e;
+  margin-top: 59px;
+  margin-bottom: 61px;
+}
+.explore .exploreInfo hr {
+  width: 78px;
+  height: 6px;
+  background-color: #3984f3;
+  display: table-cell;
+}
+.explore .exploreInfo button {
+  width: 202px;
+  height: 57px;
+  background-color: #3984f3;
+  border: 3px solid #3984f3;
+  font-family: "NunitoSansRegular";
+  font-size: 23px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.explore .slides {
+  margin-top: 78px;
+  margin-left: 186px;
+}
+.explore .slides .slide {
+  width: 39px;
+  height: 28px;
+  color: #a0a0a0;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 62px;
+}
+.videos {
+  margin-top: 254px;
+  margin-left: 157px;
+  margin-right: 138px;
+}
+.videos .aboutTheme h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #091e40;
+  text-align: center;
+}
+.videos .aboutTheme hr {
+  width: 78px;
+  height: 6px;
+  background-color: #3984f3;
+  margin-top: 45px;
+  margin-bottom: 59px;
+}
+.videos .aboutTheme p {
+  font-family: "NunitoSansExtraLight";
+  font-size: 22px;
+  line-height: 41px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #81858e;
+  width: 1214px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.videos .videosSlideshow {
+  display: flex;
+}
+.videos .videosSlideshow .mainVideo {
+  position: relative;
+  margin-right: 30px;
+}
+.videos .videosSlideshow .mainVideo video {
+  width: 1072px;
+  height: 613px;
+}
+.videos .videosSlideshow .mainVideo img {
+  position: absolute;
+  top: 269px;
+  left: 508px;
+}
+.videos .videosSlideshow .mainVideo .nameVideo {
+  position: absolute;
+  top: 505px;
+  left: 53px;
+  text-align: left;
+
+  font-family: "NunitoSansExtraLight";
+  font-size: 34.9px;
+  line-height: 45px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.videos .videosSlideshow .mainVideo .durationVideo {
+  position: absolute;
+  top: 554px;
+  left: 53px;
+  text-align: left;
+
+  opacity: 0.7;
+  font-family: "NunitoSansExtraLight";
+  font-size: 26.3px;
+  line-height: 45px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.videos .videosSlideshow .otherVideos {
+  display: block;
+}
+.videos .videosSlideshow .otherVideos div video {
+  width: 197px;
+  height: 113px;
+  margin-right: 20px;
+}
+.videos .videosSlideshow .otherVideos div {
+  display: flex;
+  width: 517px;
+  height: 140px;
+}
+.videos .videosSlideshow .otherVideos div .videoInfo {
+  display: block;
+}
+.videos .videosSlideshow .otherVideos div .videoInfo .videoInfoName {
+  font-family: "NunitoSansExtraLight";
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #091e40;
+}
+.videos .videosSlideshow .otherVideos div .videoInfo .videoInfoDuration {
+  font-family: "NunitoSansExtraLight";
+  opacity: 0.7;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #091e40;
+}
+
+.travelCategories {
+  margin-top: 251px;
+}
+.travelCategories .aboutTheme {
+  margin-bottom: 175px;
+}
+.travelCategories .aboutTheme h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #091e40;
+  text-align: center;
+}
+.travelCategories .aboutTheme hr {
+  width: 78px;
+  height: 6px;
+  background-color: #3984f3;
+  margin-top: 45px;
+  margin-bottom: 59px;
+}
+.travelCategories .aboutTheme p {
+  font-family: "NunitoSansExtraLight";
+  font-size: 22px;
+  line-height: 41px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #81858e;
+  width: 1214px;
+  text-align: center;
+  margin: 0 auto;
+}
+.travelCategories .categories {
+  display: flex;
+  margin-top: 115px;
+}
+.travelCategories .categories .category {
+  margin-right: 33px;
+  position: relative;
+  margin-top: 50px;
+}
+.travelCategories .categories .category .categoryName {
+  position: absolute;
+  top: 420px;
+  left: 41px;
+  font-family: "NunitoSansExtraLight";
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.travelCategories .categories .active {
+  margin-top: 0;
+}
+
+.travelCategories .slides {
+  margin-top: 97px;
+  margin-left: 824px;
+}
+.travelCategories .slides .slide {
+  width: 39px;
+  height: 28px;
+  color: #a0a0a0;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 65px;
+}
+
+.travelerExperience {
+  margin-bottom: 249px;
+}
+.travelerExperience h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #091e40;
+  text-align: center;
+}
+.travelerExperience hr {
+  width: 78px;
+  height: 6px;
+  background-color: #3984f3;
+  margin-top: 34px;
+  margin-bottom: 82px;
+}
+.travelerExperience p {
+  font-family: "NunitoSansExtraLight";
+  font-size: 26px;
+  line-height: 50px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #091e40;
+  width: 1214px;
+  text-align: center;
+  margin: 0 auto;
+}
+.travelerExperience .slides {
+  margin-top: 79px;
+  margin-bottom: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.travelerExperience .slides .slide {
+  width: 180px;
+  color: #a0a0a0;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+}
+.travelerExperience .slides .aboutTraveller img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.travelerExperience .slides .aboutTraveller .travellerName {
+  font-family: "NunitoSansExtraLight";
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #2b323a;
+  width: 180px;
+}
+.travelerExperience .slides .aboutTraveller .travellerQuality {
+  font-family: "NunitoSansExtraLight";
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 400;
+  color: #2b323a;
+  width: 180px;
+}
+
+.travelerExperience .indicators {
+  max-width: 225px;
+  margin: 57px auto 0;
+  display: flex;
+  margin-bottom: 251px;
+}
+
+.lineIndicator {
+  width: 38px;
+  height: 3px;
+  background-color: #7185de;
+  opacity: 0.3;
+  margin-left: 17px;
+}
+
+.lineIndicator:first-child {
+  margin-left: 0;
+}
+
+.indicators .active {
+  background-color: #3984f3;
+  opacity: 1;
+  width: 60px;
+}
+
+.sale {
+  width: 1920px;
+  height: 899px;
+  background-image: url("./images/SaleBackground.png");
+
+  position: relative;
+}
+.sale h3 {
+  font-family: "NunitoSansRegular";
+  font-size: 38.7px;
+  line-height: 47px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.sale h1 {
+  font-family: "NunitoSansRegular";
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 800;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.sale select,
+.dates {
+  width: 348px;
+  height: 69px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 55px;
+  font-family: "NunitoSansExtraLight";
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+option {
+  background-color: rgba(29, 48, 55, 0.9);
+}
+.dates {
+  background: url("./images/dates.png") no-repeat;
+  background-size: 23px;
+  background-position: calc(100% - 47px) center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dates::placeholder {
+  color: white;
+}
+.sale .bookNow .buttonBookNow {
+  width: 348px;
+  height: 69px;
+  background-color: #3984f3;
+  font-family: "NunitoSansExtraLight";
+  font-size: 23px;
+  line-height: 45px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  border: 1px solid #3984f3;
+}
+
+.footer {
+  height: 297px;
+  padding-top: 75px;
+  /* padding-bottom: 80px; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerNav a {
+  text-decoration: none;
+  color: black;
+  font-family: "NunitoSansExtraLight";
+  font-size: 18px;
+  line-height: 49px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #2b323a;
+
+  margin-left: 45px;
+}
+.footerNav a:first-child {
+  margin-left: 0px;
+}
+.copyright {
+  font-family: "NunitoSansExtraLight";
+  font-size: 15px;
+  line-height: 49px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #2b323a;
+}
+.name {
+  font-family: "NunitoSansExtraLight";
+  font-size: 15px;
+  line-height: 49px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #c6c6c6;
+  margin-left: 8px;
+}
+.socialMedias,
+.footerCopyright {
+  display: flex;
+  justify-content: center;
+}
+.socialMedia {
+  width: 48px;
+  height: 47px;
+  background-color: #3984f3;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 22px;
+}
+.socialMedia:first-child {
+  margin-left: 0px;
+}
+.socialMedia img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
